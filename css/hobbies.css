@@ -1,0 +1,54 @@
+img {
+    margin: 0.5%;
+    width: 540px;
+    height: 290px;
+    text-align: center;
+}
+
+.img__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img__container div {
+    display: flex;
+    justify-content: center;
+}
+
+.url {
+    margin: 50px 0;
+}
+
+a {
+    font-size: 24px;
+    color: black;
+}
+
+.main__container {
+    filter: blur(10px);
+}
+
+.main__container:hover {
+    filter: blur(0px);
+}
+
+.test {
+    transition-duration: 10s;
+}
+
+.test:hover {
+    border-radius: 40%;
+    transform: rotate(3600deg);
+}
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 50px;
+        margin: 5%;
+    }
+    img {
+        width: 380px;
+        height: 170px;
+    }
+}

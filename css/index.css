@@ -1,0 +1,48 @@
+
+
+li {
+    list-style-type: circle;
+}
+
+.main__img {
+    width: 250px;
+    height: 360px;
+}
+
+.main__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+
+
+a {
+    margin: 1%;
+    font-size: 24px;
+    color: black;
+}
+
+.url {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+
+
+@media (min-width: 1200px) {
+    .content__left {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 50px;
+        margin: 5%;
+    }
+}
